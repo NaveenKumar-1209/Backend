@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+Body{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    background-image: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.UserData{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding:25px 30px;
+    border-radius: 5px;
+}
+.UserMap{
+    justify-content: space-between;
+    list-style: none;
+}
+.IndiUser{
+    margin:20px 0 12px 0;
+    width:100%;
+}
+.UserData button{
+    height:45px;
+    width:100%;
+    outline:none;
+    color:#fff;
+    border:none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-image: linear-gradient(135deg, #71b7e6, #9659b6);
+}
+.UserData button:hover{
+    background-image: linear-gradient(-135deg, #71b7e6, #9659b6);
+} 
